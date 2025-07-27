@@ -1,4 +1,7 @@
 import streamlit as st
+import logging
+
+logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
 st.set_page_config(page_title="BMI & Health Tracker", layout="centered")
 
@@ -15,6 +18,8 @@ if st.button("Calculate BMI"):
         height_m = height / 100
         bmi = weight / (height_m ** 2)
         st.success(f"{name}, your BMI is *{bmi:.2f}*")
+        logging.info(f"BMI calculated for {name} (Age: {age}, Gender: {gender}) - Height: {height} cm, Weight: {weight} kg, BMI: {bmi:.2f}")
+
         if bmi < 18.5:
             st.info("You are *Underweight*")
         elif 18.5 <= bmi < 24.9:
