@@ -29,4 +29,4 @@ if st.button("Calculate BMI"):
         else:
             st.error("You are in the *Obese* category")
     else:
-        st.error("Please enter a valid height.")
+        st.error("Please enter a valid height .")
