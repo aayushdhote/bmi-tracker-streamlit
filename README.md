@@ -48,4 +48,4 @@ Obese	≥ 30
 👥 Author
 Aayush Dhote
 
-💡 Feel free to contribute or suggest improvements — health is a journey we take together!
+💡 Feel free to contribute or suggest improvements — health is a journey we take together !
