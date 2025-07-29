@@ -26,10 +26,10 @@ Overweight
 
 Obese
 
-🚀 How to Run
+🚀 How to Run:-
 Make sure you have Python installed (3.7 or above recommended).
 
-Install required dependencies:
+Install required dependencies:-
 
 pip install streamlit
 Save the code in a file, for example bmi_calculator.py.
